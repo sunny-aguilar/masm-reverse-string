@@ -60,7 +60,8 @@ mov   ecx, sLength
 mov   esi, OFFSET inString
 add   esi, ecx
 dec   esi				;last byte of inString
-mov   edi, OFFSET outstring; first byte of outStringreverse : std; get characters from end to beginninglodsbcld; store characters from beginning to endstosbloop  reverse; Display reversed stringmov   edx, OFFSET outStringcall  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
+mov   edi, OFFSET outstring
+;first byte of outStringreverse : std; get characters from end to beginninglodsbcld; store characters from beginning to endstosbloop  reverse; Display reversed stringmov   edx, OFFSET outStringcall  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
 
 
 
