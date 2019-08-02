@@ -15,3 +15,8 @@ inString	BYTE	MAXSIZE DUP(? )				;User's string
 outString   BYTE	MAXSIZE DUP(?)				;User's string capitalized
 prompt1     BYTE    "Enter a string: ", 0
 sLength     DWORD 0
+
+.code
+
+main PROC
+;Get user input:
