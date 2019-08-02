@@ -31,8 +31,9 @@ call  CrLf
 ;Set up the loop counter, put the string addresses in the source 
 ;and index registers, and clear the direction flag:
 mov   sLength,eax
-mov   ecx,eax
-mov   esi,OFFSET inString
-mov   edi,  OFFSET outStringcld
+mov   ecx,	eax
+mov   esi,	OFFSET inString
+mov   edi,  OFFSET outString
+cld
 
 
