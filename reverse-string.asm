@@ -71,7 +71,8 @@ loop  reverse
 
 ;Display reversed string
 mov   edx, OFFSET outString
-call  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
+call  WriteString
+call  CrLfexit; exit to operating systemmain ENDPEND main
 
 
 
