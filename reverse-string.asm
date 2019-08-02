@@ -55,7 +55,9 @@ mov   edx, OFFSET outString
 call  WriteString
 call  CrLf
 
-;Reverse the stringmov   ecx, sLengthmov   esi, OFFSET inStringadd   esi, ecxdec   esi; last byte of inString
+;Reverse the string
+mov   ecx, sLength
+mov   esi, OFFSET inStringadd   esi, ecxdec   esi; last byte of inString
 
 
 
