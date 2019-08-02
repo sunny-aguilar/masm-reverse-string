@@ -64,7 +64,8 @@ mov   edi, OFFSET outstring	;first byte of outString
 
 reverse: 
 std							;get characters from end to beginning
-lodsbcld; store characters from beginning to endstosbloop  reverse; Display reversed stringmov   edx, OFFSET outStringcall  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
+lodsb
+cld; store characters from beginning to endstosbloop  reverse; Display reversed stringmov   edx, OFFSET outStringcall  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
 
 
 
