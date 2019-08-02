@@ -24,7 +24,8 @@ mov   edx, OFFSET prompt1
 call  WriteString
 mov   edx, OFFSET inString
 mov   ecx, MAXSIZE
-call  ReadStringcall  WriteStringcall  CrLf
+call  ReadString
+call  WriteStringcall  CrLf
 
 
 
