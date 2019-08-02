@@ -73,7 +73,11 @@ loop  reverse
 mov   edx, OFFSET outString
 call  WriteString
 call  CrLf
-exit; exit to operating systemmain ENDPEND main
+
+exit	;exit to operating system
+
+main ENDP
+END main
 
 
 
