@@ -57,7 +57,8 @@ call  CrLf
 
 ;Reverse the string
 mov   ecx, sLength
-mov   esi, OFFSET inStringadd   esi, ecxdec   esi; last byte of inString
+mov   esi, OFFSET inString
+add   esi, ecxdec   esi; last byte of inString
 
 
 
