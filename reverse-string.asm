@@ -36,4 +36,4 @@ mov   esi,	OFFSET inString
 mov   edi,  OFFSET outString
 cld
 
-
+; Check each character to determine if it is a lower - case letter.; If yes, change it to a capital letter.Store all characters in; the converted string : counter:lodsbcmp   al, 97; 'a' is character 97jb    notLCcmp   al, 122; 'z' is character 122ja    notLCsub   al, 32notLC:stosbloop  counter
