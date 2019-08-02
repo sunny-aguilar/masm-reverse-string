@@ -59,7 +59,7 @@ call  CrLf
 mov   ecx, sLength
 mov   esi, OFFSET inString
 add   esi, ecx
-dec   esi; last byte of inString
+dec   esi				;last byte of inString
 
 
 
