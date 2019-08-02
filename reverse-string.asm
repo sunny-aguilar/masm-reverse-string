@@ -66,7 +66,10 @@ reverse:
 std							;get characters from end to beginning
 lodsb
 cld							;store characters from beginning to end
-stosbloop  reverse; Display reversed stringmov   edx, OFFSET outStringcall  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
+stosb
+loop  reverse
+
+;Display reversed stringmov   edx, OFFSET outStringcall  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
 
 
 
