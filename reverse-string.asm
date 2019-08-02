@@ -28,6 +28,7 @@ call  ReadString
 call  WriteString
 call  CrLf
 
-;Set up the loop counter, put the string addresses in the source ; and index registers, and clear the direction flag:mov   sLength,eaxmov   ecx,eaxmov   esi,OFFSET inStringmov   edi,  OFFSET outStringcld
+;Set up the loop counter, put the string addresses in the source 
+;and index registers, and clear the direction flag:mov   sLength,eaxmov   ecx,eaxmov   esi,OFFSET inStringmov   edi,  OFFSET outStringcld
 
 
