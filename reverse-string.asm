@@ -32,6 +32,7 @@ call  CrLf
 ;and index registers, and clear the direction flag:
 mov   sLength,eax
 mov   ecx,eax
-mov   esi,OFFSET inStringmov   edi,  OFFSET outStringcld
+mov   esi,OFFSET inString
+mov   edi,  OFFSET outStringcld
 
 
