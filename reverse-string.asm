@@ -50,7 +50,10 @@ notLC:
 stosb
 loop  counter
 
-; Display the converted string : mov   edx, OFFSET outStringcall  WriteStringcall  CrLf; Reverse the stringmov   ecx, sLengthmov   esi, OFFSET inStringadd   esi, ecxdec   esi; last byte of inString
+;Display the converted string: 
+mov   edx, OFFSET outString
+call  WriteString
+call  CrLf; Reverse the stringmov   ecx, sLengthmov   esi, OFFSET inStringadd   esi, ecxdec   esi; last byte of inString
 
 
 
