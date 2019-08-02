@@ -8,3 +8,10 @@ TITLE DemoString(demo6.asm)
 
 INCLUDE Irvine32.inc
 MAXSIZE = 100
+
+.data
+
+inString	BYTE	MAXSIZE DUP(? )				;User's string
+outString   BYTE	MAXSIZE DUP(?)				;User's string capitalized
+prompt1     BYTE    "Enter a string: ", 0
+sLength     DWORD 0
