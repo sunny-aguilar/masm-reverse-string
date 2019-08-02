@@ -69,7 +69,8 @@ cld							;store characters from beginning to end
 stosb
 loop  reverse
 
-;Display reversed stringmov   edx, OFFSET outStringcall  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
+;Display reversed string
+mov   edx, OFFSET outStringcall  WriteStringcall  CrLfexit; exit to operating systemmain ENDPEND main
 
 
 
