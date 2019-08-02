@@ -20,3 +20,10 @@ sLength     DWORD 0
 
 main PROC
 ;Get user input:
+mov   edx, OFFSET prompt1
+call  WriteString
+mov   edx, OFFSET inStringmov   ecx, MAXSIZEcall  ReadStringcall  WriteStringcall  CrLf
+
+
+
+
